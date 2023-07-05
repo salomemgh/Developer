@@ -1,0 +1,342 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@font-face {
+    font-family: dmsans-regular;
+    src: url(DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: notosans-regular;
+    src: url(NotoSans-Regular.ttf);
+}
+.span_collosal{
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFF;
+    font-family: dmsans-regular;
+}
+.a1{
+    font-weight: 400;
+    font-size: 16px;
+    text-decoration: none;
+    font-family: notosans-regular;
+}
+.button1{
+    width: 112px;
+    height: 39px;
+    border: none;
+    border-radius: 3px;
+    color: #ffffff;
+    background: rgba(255, 255, 255, 0.1);
+}
+.a_contact{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: notosans-regular;
+}
+.N2{
+    margin-top: 101px;
+}
+.p_client, .p_how, .p_team, .p_projects, .h_getstart, .h_testimonial{
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 10%;
+    font-family: notosans-regular;
+    color: rgba(22, 252, 210, 1);
+}
+.p_design, .p_everything, .p_designers, .p_completed, .p_service, .p_client2{
+    font-weight: 700;
+    font-size: 36px;
+    font-family: notosans-regular;
+}
+.p_everything, .p_designers, .p_completed, .p_service, .p_client2{
+    font-size: 30px !important;
+}
+.p_committed, .p_careful, .p_creative{
+    font-weight: 500;
+    font-size: 16px;
+    font-family: notosans-regular;
+    color: rgba(255, 255, 255, 0.6) !important;
+}
+.button2, .button3{
+    width: 202px;
+    height: 52px;
+    border: none;
+    background-color: rgba(96, 22, 252, 1);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: notosans-regular;
+}
+.button3{
+    width: 200px !important;
+    background: rgba(255, 255, 255, 0.1);
+}
+.card{
+    margin-top: 101px;
+    background: var(--light, rgba(255, 255, 255, 0.05)) !important;
+}
+.CB_0{
+    width: 328px;
+    height: 276px;
+    margin-top: 32px;
+}
+.p_1{
+    font-weight: 700;
+    font-size: 18px;
+    font-family: notosans-regular;
+}
+.p_2{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 32px;
+    font-family: notosans-regular;
+}
+.N3{
+    margin-top: 60px;
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+}
+.N4{
+    margin-top: 130px;
+}
+.N5{
+    margin-top: 90px;
+}
+.N6{
+    margin-top: 255px;
+}
+.N7{
+    margin-top: 150px;
+}
+.button4{
+    margin-top: 48px;
+    width: 196px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background: rgba(255, 255, 255, 0.1);
+    font-weight: 600;
+    font-size: 16px;
+    font-family: notosans-regular;
+}
+.hr1{
+    margin-top: 118px;
+    color: hsla(0, 0%, 100%, 0.1) !important;
+}
+.N8{
+    margin-top: 118px;
+}
+.cb1{
+    width: 502px;
+    height: 441px;
+}
+.project_card2{
+    width: 502px;
+    height: 441px;
+}
+.rec_1{
+    width: 154px;
+    height: 26px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.rec_2{
+    width: 94px;
+    height: 26px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.rec_3{
+    margin-top: 66px;
+    width: 194px;
+    height: 256px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.rec_4{
+    margin-top: 66px;
+    width: 368px;
+    height: 256px;
+    background: hsla(240, 24%, 17%, 1) !important;
+}
+.p_mobile{
+    font-weight: 700;
+    font-size: 20px;
+    font-family: notosans-regular;
+}
+.p_mobile2{
+    font-weight: 400;
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 0.6) !important;
+    font-family: notosans-regular;
+}
+.btn1{
+    width: 100px;
+    height: 39px;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 1) !important;
+    font-family: notosans-regular;
+}
+.texts{
+    margin-bottom: 70px;
+}
+.card_N1{
+    margin-top: 110px;
+    height: 911px;
+    border-radius: 30px;
+    background: var(--highlight, #221048);
+    padding-top: 90px;
+    margin-bottom: 120px;
+}
+.cb_1, .cb_2, .cb_3{
+    height: 474px;
+    border-radius: 10px;
+    background: #3F2379;
+    padding-top: 58px;
+}
+.cb_2{
+    background: #233679;
+}
+.cb_3{
+    background: #792366;
+}
+.p_ui{
+    color: #FFF;
+
+    /* Pricing Title */
+    font-size: 16px;
+    font-family: notosans-regular;
+    font-weight: 700;
+    padding-top: 58px;
+}
+.p_starting{
+    color: var(--muted, rgba(255, 255, 255, 0.60));
+    font-size: 12px;
+    font-weight: 400;
+    font-family: notosans-regular;
+    padding-top: 58px;
+}
+.p_price{
+    color: #FFF;
+
+    /* Pricing Price */
+    font-size: 36px;
+    font-weight: 700;
+    font-family: notosans-regular;
+}
+.border1{
+    border: 1px solid rgba(255, 255, 255, 0.05);;
+}
+.p_texts{
+    color: #FFF;
+    text-align: center;
+
+    /* Pricing Detail */
+    font-size: 16px;
+    font-family: notosans-regular;
+    font-weight: 500;
+    line-height: 36px;
+}
+.button5{
+    width: 234px;
+    height: 52px;
+    border: none;
+    border-radius: 3px;
+}
+.CB_4, .CB_43{
+    margin-top: 136px;
+    height: 447px;
+    border-radius: 3px;
+    background: var(--light, rgba(255, 255, 255, 0.05));
+    margin-bottom: 30px;
+}
+.CB_43{
+    border: 2px solid var(--primary, #6016FC) !important;
+    margin-top: 90px;
+}
+.avatar1{
+    margin-top: 61px;
+}
+.name{
+    color: #FFF;
+
+    /* Testimonial Name */
+    font-size: 18px;
+    font-family: notosans-regular;
+    font-weight: 700;
+}
+.text_1{
+    color: rgba(255, 255, 255, 0.60);
+
+    /* Testimonial Company */
+    font-size: 14px;
+    font-family: notosans-regular;
+    font-weight: 500;
+}
+.text_2{
+    color: var(--muted, rgba(255, 255, 255, 0.60));
+
+    /* Testimonial Description */
+    font-size: 16px;
+    font-family: notosans-regular;
+    font-weight: 500;
+}
+.p_prepared{
+    color: #FFF;
+
+    /* Section Title */
+    font-size: 30px;
+    font-family: notosans-regular;
+    font-weight: 700;
+}
+
+.button6{
+    width: 202px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background: hsla(259, 97%, 54%, 1);
+}
+.button7{
+    width: 162px;
+    height: 52px;
+    border-radius: 3px;
+    border: none;
+    background: hsla(0, 0%, 100%, 0.1);
+}
+.button6, .button7{
+    font-weight: 600;
+    font-size: 16px;
+    color: hsla(0, 0%, 100%, 1);
+    font-family: notosans-regular;
+}
+.box1{
+    margin-top: 191px;
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+}
+.cont_footer{
+    margin-top: 100px;
+    margin-bottom: 65px;
+}
+.h_1{
+    color: #FFF;
+    font-size: 14px;
+    font-family: notosans-regular;
+    font-weight: 500;
+    letter-spacing: 1.4px;
+}
+.a_7{
+    color: var(--muted, rgba(255, 255, 255, 0.60));
+    font-size: 16px;
+    font-family: notosans-regular;
+    font-weight: 400;
+    line-height: 38px;
+    text-decoration: none;
+}
